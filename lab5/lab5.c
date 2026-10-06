@@ -5,22 +5,22 @@
 void zadanie1()
 {
     char c;
-    printf("1. Ââåäèòå ñèìâîë: ");
+    printf("1. Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»: ");
     scanf(" %c", &c);
 
     switch (c)
     {
     case 'a':
-        printf("Ââåäåíî 'a'.\n");
+        printf("Ð’Ð²ÐµÐ´ÐµÐ½Ð¾ 'a'.\n");
         break;
     case 'b':
-        printf("Ââåäåíî 'b'.\n");
+        printf("Ð’Ð²ÐµÐ´ÐµÐ½Ð¾ 'b'.\n");
         break;
     default:
         if (c >= '0' && c <= '9')
-            printf("Ýòî öèôðà\n");
+            printf("Ð­Ñ‚Ð¾ Ñ†Ð¸Ñ„Ñ€Ð°\n");
         else
-            printf("Ýòî áóêâà\n");
+            printf("Ð­Ñ‚Ð¾ Ð±ÑƒÐºÐ²Ð°\n");
     }
 }
 
@@ -29,7 +29,7 @@ void zadanie2()
     float x, y, res;
     char op;
 
-    printf("2. Ââåäèòå âûðàæåíèå (íàïðèìåð 2+3): ");
+    printf("2. Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ (Ð½Ð°Ð¿Ñ€Ð¸Ð¼ÐµÑ€ 2+3): ");
     scanf("%f%c%f", &x, &op, &y);
 
     switch (op)
@@ -47,7 +47,7 @@ void zadanie2()
         if (y != 0)
             printf("=%f\n", x / y);
         else
-            printf("Äåëåíèå íà íîëü\n");
+            printf("Ð”ÐµÐ»ÐµÐ½Ð¸Ðµ Ð½Ð° Ð½Ð¾Ð»ÑŒ\n");
         break;
     case '^':
         res = 1;
@@ -56,7 +56,7 @@ void zadanie2()
         printf("=%f\n", res);
         break;
     default:
-        printf("Íåèçâåñòíàÿ îïåðàöèÿ\n");
+        printf("ÐÐµÐ¸Ð·Ð²ÐµÑÑ‚Ð½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ\n");
     }
 }
 
