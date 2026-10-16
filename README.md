@@ -9,10 +9,8 @@
 #include <stdio.h>
 #include <locale.h>
 
-int main()
+void zadanie1()
 {
-    setlocale(LC_CTYPE, "RUS");
-
     int n;
     float M;
 
@@ -41,7 +39,12 @@ int main()
     default:
         printf("Неверный номер\n");
     }
+}
 
+int main()
+{
+    setlocale(LC_CTYPE, ".UTF-8");
+    zadanie1();
     return 0;
 }
 ```
