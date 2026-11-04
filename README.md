@@ -6,6 +6,7 @@
 
 ### 1. Блок-схема
 <img width="1012" height="1062" alt="lab7 drawio" src="https://github.com/user-attachments/assets/f9165142-c97d-4fc9-b163-e4292105d400" />
+
 ### 2. Реализация программы
 ```
 #define _CRT_SECURE_NO_WARNINGS
